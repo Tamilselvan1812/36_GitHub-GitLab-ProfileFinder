@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GitHub & GitLab Profile Finder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+
+<h2>GitHub & GitLab Profile Finder</h2>
+
+<div class="radio-group">
+
+<label class="radio-item">
+<input type="radio" name="platform" value="github" checked>
+<span>GitHub</span>
+</label>
+
+<label class="radio-item">
+<input type="radio" name="platform" value="gitlab">
+<span>GitLab</span>
+</label>
+
+</div>
+
+<input type="text" id="username" placeholder="Enter username">
+
+<button onclick="searchProfile()">Search</button>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
